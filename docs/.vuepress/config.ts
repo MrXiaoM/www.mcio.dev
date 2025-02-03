@@ -16,7 +16,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
 
   locales: {
-    '/docs/': {
+    '/': {
       lang: 'zh-CN',
       title: "NeoWorld",
       description: 'NeoWorld 服务器社区文档',
