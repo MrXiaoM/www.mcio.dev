@@ -3,6 +3,7 @@
  * https://ecosystem.vuejs.press/zh/themes/default/config.html#sidebar
  */
 const customSidebar = [
+    ["/", "简介"]
     ["/rules", "玩家协议/服务器规则"],
 ]
 
