@@ -37,16 +37,11 @@
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="/docs">帮助文档</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">社交媒体</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <a class="dropdown-item" aria-current="page" href="#social">社交账号</a>
-              </li>
-              <li>
-                <a class="dropdown-item" aria-current="page" href="#video">视频</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#social">社交账号</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#map">地图</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#github">开放源代码</a>
@@ -260,38 +255,125 @@
       </div>
     </div>
   </section>
-  <section id="video" class="section video has-style-01">
+  <section id="map" class="section video has-style-01">
     <div class="shape">
       <img class="shape-03" src="assets/images/shape/shape-03.png" alt="shape">
       <img class="shape-07" src="assets/images/shape/shape-05.png" alt="shape">
     </div>
     <div class="container">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-lg-7 col-md-6 col-12 d-flex">
-          <div class="heading-title">
-            <h3>看看我们做了什么</h3>
-            <h2>观看往期视频</h2>
+      <div class="row justify-content-between flex-row">
+        <div class="col-lg-8 col-md-8 col-12">
+          <div class="map-content">
+            <div class="controls">
+              <button type="button" data-filter=".laobu" style="left:89%;top:50%">老布</button>
+              <button type="button" data-filter=".smith1" style="left:66%;top:48%">铁匠铺</button>
+              <button type="button" data-filter=".market" style="left:82%;top:70%">商店租赁</button>
+              <button type="button" data-filter=".point" style="left:70%;top:83%">积分兑换</button>
+              <button type="button" data-filter=".guidebook" style="left:58%;top:87%">魔法图鉴</button>
+              <button type="button" data-filter=".shop" style="left:55%;top:80%">商店</button>
+              <button type="button" data-filter=".ticket" style="left:55%;top:75%">售票员</button>
+              <button type="button" data-filter=".luck" style="left:36%;top:63%">幸运神殿</button>
+              <button type="button" data-filter=".events" style="left:18%;top:62%">活动</button>
+              <button type="button" data-filter=".smith2" style="left:12%;top:45%">铁匠铺</button>
+              <button type="button" data-filter=".magic" style="left:14%;top:34%">魔法屋</button>
+              <button type="button" data-filter=".adventure" style="left:32%;top:22%">冒险者协会</button>
+              <button type="button" data-filter=".technology" style="left:21%;top:12%">科技研究所</button>
+              <button type="button" data-filter=".crops" style="left:58%;top:18%">星露谷农业</button>
+            </div>
           </div>
         </div>
-        <div class="col-lg-5 col-md-6 col-12 controls">
-          <button type="button" data-filter="all">所有视频</button>
-          <button type="button" data-filter=".oldcheese">芝士</button>
-          <button type="button" data-filter=".mrxiaom">猫猫</button>
-        </div>
-      </div>
-      <div class="row auction-filter justify-content-center">
-        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 mix oldcheese mrxiaom">
-          <div class="item-card">
-            <div class="item-image">
-              <span class="text-image">时长 --:--
-                <br> 20XX-XX-XX</span>
-              <a class="link-image" href="#" target="_blank">
-                <i class="fa-brands fa-bilibili"></i>&nbsp;前往哔哩哔哩观看
-              </a>
-              <img src="https://pic1.imgdb.cn/item/67a08f22d0e0a243d4f9b7a0.png" alt="封面" loading="lazy">
+        <div class="col-lg-4 col-md-4 col-12 map-description">
+          <div class="heading-title">
+            <h3>主城区域</h3>
+            <h2>地图引导</h2>
+          </div>
+          <div class="auction-filter">
+            <div class="mix none">
+              <p>请在地图中选择一个地点。</p>
             </div>
-            <div class="padding-5px">
-              <h4>暂无视频</h4>
+            <div class="mix laobu">
+              <p class="head">老布</p>
+              <div class="content">
+                新人引导
+              </div>
+            </div>
+            <div class="mix smith1">
+              <p class="head">铁匠铺</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix market">
+              <p class="head">商店租赁</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix point">
+              <p class="head">积分兑换</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix guidebook">
+              <p class="head">魔法图鉴</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix shop">
+              <p class="head">商店</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix ticket">
+              <p class="head">售票员</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix luck">
+              <p class="head">幸运神庙</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix events">
+              <p class="head">活动</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix smith2">
+              <p class="head">铁匠铺</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix magic">
+              <p class="head">魔法屋</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix adventure">
+              <p class="head">冒险者协会</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix technology">
+              <p class="head">科技研究所</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
+            </div>
+            <div class="mix crops">
+              <p class="head">星露谷农业</p>
+              <div class="content">
+                暂无介绍，敬请期待
+              </div>
             </div>
           </div>
         </div>

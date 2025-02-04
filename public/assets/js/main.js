@@ -79,7 +79,9 @@ $(document).ready(function () {
   
   // mixitup
   var containerEl = document.querySelector('.auction-filter');
-  var mixer = mixitup(containerEl);
-
-
+  mixitup(containerEl, {
+    animation: {
+      duration: 250
+    }
+  }).filter(".none");
 });
